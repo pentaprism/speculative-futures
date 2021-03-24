@@ -3,7 +3,7 @@ let drone;
 let videos = [];
 let imgs = [];
 let bg;
-let spb = 30; //spaceBetweenVideos
+let spb = 35; //spaceBetweenVideos
 let resolutionX = 5;
 let resolutionY = 3;
 
@@ -56,7 +56,7 @@ function preload() {
 
 function setup() {
    // createCanvas(900, 600);
-   createCanvas(displayWidth * 0.60, displayHeight * 0.6);
+   createCanvas(displayWidth * 0.75, displayHeight * 0.6);
    // createCanvas(1280, 800);
   
   // drone = createAudio('drone001.mp3');
