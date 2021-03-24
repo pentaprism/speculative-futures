@@ -56,11 +56,11 @@ function preload() {
 
 function setup() {
    // createCanvas(900, 600);
-   createCanvas(displayWidth * 0.75, displayHeight * 0.6);
+   createCanvas(displayWidth * 0.75, displayHeight * 0.5);
    // createCanvas(1280, 800);
   
-  // drone = createAudio('drone001.mp3');
-  // drone.loop(true);
+  drone = createAudio('drone001.mp3');
+  drone.loop(true);
 }
 
 function draw() {
