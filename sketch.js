@@ -56,7 +56,7 @@ function preload() {
 
 function setup() {
    // createCanvas(900, 600);
-   createCanvas(displayWidth * 0.65, displayHeight * 0.55);
+   createCanvas(displayWidth * 0.65, displayHeight * 0.6);
    // createCanvas(1280, 800);
   
   drone = createAudio('drone001.mp3');
